@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
@@ -8,21 +8,28 @@
     <title>Barra de Menú Lateral</title>
     <link rel="stylesheet" href="styles/styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <!--     <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
 </head>
 
 <body>
-    <div class="slidebar">
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
         <header>Mi aplicación</header>
         <ul>
-            <li><a href="#"><i class="fas fa-qrcode"></i>Dashboards</a></li>
-            <li><a href="#"><i class="fas fa-link"></i>Shortcuts</a></li>
-            <li><a href="#"><i class="fas fa-stream"></i>Overview</a></li>
-            <li><a href="#"><i class="fas fa-calendar-week"></i>Events</a></li>
-            <li><a href="#"><i class="far fa-question-circle"></i>About</a></li>
-            <li><a href="#"><i class="fas fa-sliders-h"></i>Services</a></li>
-            <li><a href="#"><i class="far fa-envelope"></i>Contact</a></li>
+            <li><a href="#"><i id="icono" class="fas fa-qrcode"></i>Dashboards</a></li>
+            <li><a href="#"><i id="icono" class="fas fa-link"></i>Shortcuts</a></li>
+            <li><a href="#"><i id="icono" class="fas fa-stream"></i>Overview</a></li>
+            <li><a href="#"><i id="icono" class="fas fa-calendar-week"></i>Events</a></li>
+            <li><a href="#"><i id="icono" class="far fa-question-circle"></i>About</a></li>
+            <li><a href="#"><i id="icono" class="fas fa-sliders-h"></i>Services</a></li>
+            <li><a href="#"><i id="icono" class="far fa-envelope"></i>Contact</a></li>
         </ul>
     </div>
+    <section></section>
 </body>
 
 </html>
